@@ -1,0 +1,13 @@
+.form-label {
+    display: block;
+    margin-bottom: 2%;
+}
+
+
+.ValidatError{
+    color: red;
+}
+
+.But{
+    margin: 5px;
+}

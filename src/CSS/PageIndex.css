@@ -1,0 +1,90 @@
+.navbar {
+    background-color: rgba(20, 6, 150, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px; 
+    width: 100%;
+    z-index: 100;
+    border-bottom: solid black;
+    box-shadow: 0px 0px 0px black; 
+    transition: box-shadow 0.5s ease;
+}
+
+#root{
+    background-color:  rgba(21, 6, 158, 1);
+    color: white;
+    min-height: 100vh;
+}
+
+.Lise{
+    background-color: rgba(21, 6, 158, 1);
+}
+
+.Liste .Items{
+    border: solid black;
+    color: white;
+    background-color: rgba(21, 6, 158, 1);
+    box-shadow: 0px 0px 0px black; 
+    transition: background-color 0.5s ease;
+    text-align: center;
+}
+
+.Items:hover{
+    background-color: rgba(14, 2, 121, 1);
+    color:  rgb(147, 145, 163);
+}
+
+.navbar:hover{
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px black;
+ }
+
+.btn .Butt{
+    color:  rgb(147, 145, 163);
+}
+
+  .hamburger.btn.btn-primary img {
+    height: 100%;
+    width: auto; 
+    max-height: 50px;
+    margin-left: auto;
+  }
+
+  .navbar .inh .me-auto.open {
+    display: block; 
+    position: absolute; 
+    background-color: rgb(12, 5, 80); 
+    left: 0;
+    right: 0;
+    top: 100%;
+  }
+
+  .Header{
+   text-align: center;
+  }
+
+
+@media (max-width: 999.99px) {
+    .navbar .inh .me-auto{
+      display: none;
+    } 
+    .hamburger.btn.btn-primary{
+      display: block;
+    }
+    .me-auto.open {
+      display: flex;
+      flex-direction: column;
+    }
+ }
+
+ @media (min-width: 1000px) {
+  .navbar .inh .me-auto {
+    display: flex;
+  }
+
+.hamburger.btn.btn-primary{
+    display: none;
+  }
+}
+

@@ -1,0 +1,54 @@
+.pro{
+    text-align: center;
+}
+
+.Page{
+    display: flex;
+    align-items: start;
+    min-height: 100vh;
+}
+
+.Background{
+    min-height: 100vh;
+}
+
+.entries {
+    display: flex;
+    flex-wrap: wrap; 
+ 
+}
+  
+.Te {
+    flex: 0 0 33.3333%;
+    box-sizing: border-box; 
+    padding: 10px;
+    text-align: center;
+    border: solid black;
+}
+
+.Bor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    min-height: 100vh;
+}
+
+.Loading.spinner-border{
+    padding: 2.5%;
+}
+
+.PageButton{
+    margin: 5px;
+}
+
+.ModalButton{
+    margin: 2px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.ValError{
+    color: red;
+}
